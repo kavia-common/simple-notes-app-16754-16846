@@ -1,3 +1,5 @@
-// since there's no dynamic data here, we can prerender
-// it so that it gets served as a static asset in production
+/**
+ * PUBLIC_INTERFACE
+ * Export prerender flag for SvelteKit to serve this as a static asset.
+ */
 export const prerender = true;
